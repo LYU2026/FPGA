@@ -1,0 +1,103 @@
+Altera SOPC Builder Version 11.00 Build 157
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2015.05.13 09:47:08 (*) mk_custom_sdk starting
+# 2015.05.13 09:47:08 (*) Reading project F:/SOPC_OLED/NIOS_II.ptf.
+
+# 2015.05.13 09:47:08 (*) Finding all CPUs
+# 2015.05.13 09:47:08 (*) Finding all available components
+# 2015.05.13 09:47:08 (*) Reading F:/SOPC_OLED/.sopc_builder/install.ptf
+
+# 2015.05.13 09:47:08 (*) Found 63 components
+
+# 2015.05.13 09:47:08 (*) Finding all peripherals
+
+# 2015.05.13 09:47:08 (*) Finding software components
+
+# 2015.05.13 09:47:08 (*) (Legacy SDK Generation Skipped)
+# 2015.05.13 09:47:08 (*) (All TCL Script Generation Skipped)
+# 2015.05.13 09:47:08 (*) (No Libraries Built)
+# 2015.05.13 09:47:08 (*) (Contents Generation Skipped)
+# 2015.05.13 09:47:08 (*) mk_custom_sdk finishing
+
+# 2015.05.13 09:47:08 (*) Starting generation for system: NIOS_II.
+
+.
+.
+.
+.
+.
+.
+..
+.
+
+# 2015.05.13 09:47:09 (*) Running Generator Program for cpu
+
+# 2015.05.13 09:47:10 (*) Starting Nios II generation
+# 2015.05.13 09:47:10 (*)   Checking for plaintext license.
+# 2015.05.13 09:47:10 (*)   Couldn't query license setup in Quartus directory c:/altera/11.0/quartus
+# 2015.05.13 09:47:10 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2015.05.13 09:47:10 (*)   Plaintext license not found.
+# 2015.05.13 09:47:10 (*)   Checking for encrypted license (non-evaluation).
+# 2015.05.13 09:47:10 (*)   Couldn't query license setup in Quartus directory c:/altera/11.0/quartus
+
+# 2015.05.13 09:47:10 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+# 2015.05.13 09:47:10 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2015.05.13 09:47:10 (*)   Getting CPU configuration settings
+# 2015.05.13 09:47:10 (*)   Elaborating CPU configuration settings
+# 2015.05.13 09:47:10 (*)   Creating all objects for CPU
+# 2015.05.13 09:47:10 (*)     Testbench
+# 2015.05.13 09:47:10 (*)     Instruction decoding
+# 2015.05.13 09:47:10 (*)       Instruction fields
+# 2015.05.13 09:47:10 (*)       Instruction decodes
+
+# 2015.05.13 09:47:11 (*)       Signals for RTL simulation waveforms
+# 2015.05.13 09:47:11 (*)       Instruction controls
+# 2015.05.13 09:47:11 (*)     Pipeline frontend
+# 2015.05.13 09:47:11 (*)     Pipeline backend
+# 2015.05.13 09:47:13 (*)   Generating HDL from CPU objects
+# 2015.05.13 09:47:14 (*)   Creating encrypted HDL
+# 2015.05.13 09:47:15 (*) Done Nios II generation
+
+# 2015.05.13 09:47:15 (*) Running Generator Program for sdram
+
+# 2015.05.13 09:47:16 (*) Running Generator Program for epcs
+
+# 2015.05.13 09:47:17 (*) Running Generator Program for cfi_flash
+
+# 2015.05.13 09:47:17 (*) Running Generator Program for uart0
+
+# 2015.05.13 09:47:18 (*) Running Generator Program for timer0
+
+# 2015.05.13 09:47:18 (*) Running Generator Program for jtag_uart
+
+# 2015.05.13 09:47:19 (*) Running Generator Program for sysid
+
+# 2015.05.13 09:47:19 (*) Running Generator Program for rst
+
+.
+
+# 2015.05.13 09:47:20 (*) Running Test Generator Program for sdram
+
+# 2015.05.13 09:47:20 (*) Making arbitration and system (top) modules.
+
+# 2015.05.13 09:47:23 (*) Generating Quartus symbol for top level: NIOS_II
+
+# 2015.05.13 09:47:23 (*) Symbol F:/SOPC_OLED/NIOS_II.bsf already exists, no need to regenerate
+# 2015.05.13 09:47:23 (*) Creating command-line system-generation script: F:/SOPC_OLED/NIOS_II_generation_script
+
+# 2015.05.13 09:47:23 (*) Running setup for HDL simulator: modelsim
+
+
+# 2015.05.13 09:47:23 (*) Completed generation for system: NIOS_II.
+# 2015.05.13 09:47:23 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : F:/SOPC_OLED/NIOS_II.ptf 
+  System HDL Model : F:/SOPC_OLED/NIOS_II.v 
+  System Generation Script : F:/SOPC_OLED/NIOS_II_generation_script 
+
+# 2015.05.13 09:47:23 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

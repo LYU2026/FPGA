@@ -1,0 +1,20 @@
+# clk
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# sdram
+# epcs
+# cfi_flash
+# tri_state_bridge
+# uart0
+# timer0
+# jtag_uart
+# sysid
+# rst
+# null
+# oled
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) oled_con_hw.tcl]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) oled_con.vhd]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) oled.vhd]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 00000000000000E00000014D4AF3F0A2 
+ 
